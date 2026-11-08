@@ -1,8 +1,8 @@
-﻿Id: SplashAddonS
-Name: Splash Addon
-Author: Artzox
-Version: 1.0.2
-Module: SplashAddon.dll
+Id: SplashAddonPlus_Ad1Bb
+Name: Splash Addon Plus
+Author: Artzox / Ad1Bb
+Version: 1.0.0
+Module: SplashAddonPlus.dll
 Type: GenericPlugin
-EntryPoint: SplashAddon.SplashAddonPlugin
+EntryPoint: SplashAddonPlus.SplashAddonPlugin
 Icon: icon.png
