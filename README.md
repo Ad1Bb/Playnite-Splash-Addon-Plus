@@ -11,7 +11,7 @@ Splash Addon Plus is a fork of **[Splash Addon](https://github.com/artzox/Playni
 Instead of guessing how many seconds a game needs, the add-on watches for a new window that covers a whole monitor (exclusive fullscreen or a borderless window). Once that window has stayed fullscreen for a moment, the splash screen fades out and the game gets keyboard focus.
 
 - Windows that were already fullscreen before the game started (another app, an overlay) are ignored.
-- **Windowed games** are detected too. When Playnite knows the game's installation folder, a window of a program from that folder counts as the game once it covers at least 20% of the screen. A fullscreen window of a program from outside that folder (often a launcher) has to last 3 seconds longer. Emulated games use fullscreen detection only, since their folder holds the ROM rather than the emulator.
+- **Windowed games** are detected too. When Playnite knows the game's installation folder, a window of a program from that folder counts as the game once it covers at least 20% of the screen. A fullscreen window of a program from outside that folder (often a launcher) has to last 3 seconds longer.
 - **Programs whose windows are never the game**, such as a launcher's own loading screen, can be listed in the settings. Their windows are never taken for the game, and while one of them fills the screen the splash screen keeps waiting. The list starts with `gamingservicesui` and can be edited freely.
 - Timing options: minimum display time, delay after detection and maximum waiting time (after which the splash screen always closes).
 
